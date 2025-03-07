@@ -1,0 +1,19 @@
+log jLink.Log.Txt
+
+si SWD
+
+speed 12000
+
+device R7FA6M4AF
+
+rx 200
+
+h
+
+Loadfile JLink\Renesas_Wifi_DA16200_RA6M4_Demo.mot
+
+rx 200
+
+g 
+
+q
